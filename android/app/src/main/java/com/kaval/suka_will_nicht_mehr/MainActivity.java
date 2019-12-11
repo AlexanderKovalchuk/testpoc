@@ -1,0 +1,13 @@
+package com.kaval.suka_will_nicht_mehr;
+
+import android.os.Bundle;
+import io.flutter.app.FlutterFragmentActivity;
+import io.flutter.plugins.GeneratedPluginRegistrant;
+
+public class MainActivity extends FlutterFragmentActivity {
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    GeneratedPluginRegistrant.registerWith(this);
+  }
+}
